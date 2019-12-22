@@ -1,24 +1,9 @@
-# README
+# WEATHER API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### jbuilder
+### rspec
+### faker
+### shoulda_matchers
+### factory_bot
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Trained to build simple API with TDD/BDD approach
