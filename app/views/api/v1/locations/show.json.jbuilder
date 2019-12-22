@@ -1,11 +1,7 @@
-if !@location.nil?
-  json.id @location.id
-  json.name @location.name
+json.id @location.id
+json.name @location.name
 
-  json.current do
-    json.temp @location.recordings.last.temp
-    json.status @location.recordings.last.status
-  end
-else
-  json.content "Couldn't find Location"
+json.current do
+  json.temp @location.recordings.last.temp
+  json.status @location.recordings.last.status
 end
